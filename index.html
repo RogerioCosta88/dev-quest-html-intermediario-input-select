@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dev Quest: Select</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Select</h1>
+
+    <p>A <strong>Tag</strong> <strong>select</strong> é usada para que o usuário escolha um ou mais opções pré definidas em uma lista.</p>
+
+    <p>O <strong>select</strong> possui <i>abertura</i> e <i>fechamento.</i></p>
+
+    <h2>Option</h2>
+    <p>É inserida dentro da <strong>Tag</strong> <strong>select</strong> e é onde inserimos as opções que seram apresentadas para o usuário.</p>
+
+    <h2>Atributos</h2>
+
+    <h3>Value</h3>
+    <p>É definida no <strong>HTML</strong> e é o que será enfiado para o <i>backend</i> e/ou <i>frontend</i> quando o usuário <i>clicar em <strong>submit</strong></i></p>
+
+    <h3>Multiple</h3>
+    <p>Permite que o usuário escolha mais de uma opção. Para selecionar mais de uma opção o usuário deve segurar a tecla <strong>Ctrl</strong> e <i>clicar</i> nas outras opções desejadas. Esse <i>atributo</i> é colocado dentro da <strong>Tag</strong> <strong>Select</strong>.</p>
+
+    <label for="filmes">FILMES</label>
+    <br></br>
+    <select name="filmes" id="filmes" multiple>
+        <option value="Selecione um filme">Selecione um filme</option>
+        <option value="Vingadores">Vingadores</option>
+        <option value="O Hobbit">O Hobbit</option>
+        <option value="Senhor dos Anéis">Senhor dos Anéis</option>
+        <option value="Kungfu Panda">Kungfu Panda</option>
+        <option value="1917">1917</option>
+    </select>
+
+</body>
+</html>
